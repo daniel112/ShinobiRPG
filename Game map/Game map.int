@@ -1,0 +1,11 @@
+// BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+WINDOW: interface.dmf;hud-stats.dm;Main1.dm;player-stats.dm;hud-main.dm;login-screen.dm;speech bubble\player-chat.dm
+LAST_COMPILE_VERSION: 501.1217
+DIR: dmi png png\menu png\menu\villageLoad speech bubble 
+FILE: speech bubble\player-chat.dm
+LAST_COMPILE_TIME: 1389578088
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS

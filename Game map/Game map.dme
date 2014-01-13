@@ -1,0 +1,68 @@
+// DM Environment file for Game map.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "dmi"
+#define FILE_DIR "dmi/items"
+#define FILE_DIR "dmi/itemsGUI"
+#define FILE_DIR "dmi/skillsGUI"
+#define FILE_DIR "dmi/turfs"
+#define FILE_DIR "hair"
+#define FILE_DIR "png"
+#define FILE_DIR "png/HUD"
+#define FILE_DIR "png/menu"
+#define FILE_DIR "png/menu/character creation"
+#define FILE_DIR "png/menu/villageLoad"
+#define FILE_DIR "png/skillHUD"
+#define FILE_DIR "png/statHUD"
+#define FILE_DIR "png/turfs"
+#define FILE_DIR "png/turfs/chuunin"
+#define FILE_DIR "png/v3"
+#define FILE_DIR "speech bubble"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Apopup.dm"
+#include "cleanSave.dm"
+#include "Constants.dm"
+#include "hud-hotbars.dm"
+#include "hud-inventoryMAP.dm"
+#include "hud-main.dm"
+#include "hud-mouse.dm"
+#include "hud-skillMAP.dm"
+#include "hud-stats.dm"
+#include "login-screen.dm"
+#include "macro-numbers.dm"
+#include "Main1.dm"
+#include "movement-dynamic.dm"
+#include "movement-macro.dm"
+#include "NPC-AI.dm"
+#include "npcs.dm"
+#include "player-combat.dm"
+#include "player-creation-village.dm"
+#include "player-creation.dm"
+#include "player-name.dm"
+#include "player-overlays.dm"
+#include "player-saving.dm"
+#include "player-Skills.dm"
+#include "player-stats.dm"
+#include "target system.dm"
+#include "turf.dm"
+#include "interface.dmf"
+#include "map1.dmm"
+#include "speech bubble\DmiFontsPlus.dm"
+#include "speech bubble\font.dm"
+#include "speech bubble\Georgia8pt.dm"
+#include "speech bubble\hud-speechBubble.dm"
+#include "speech bubble\player-chat.dm"
+#include "speech bubble\speech_bubble_demo.dm"
+// END_INCLUDE
+

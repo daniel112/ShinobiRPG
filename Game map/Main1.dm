@@ -9,7 +9,7 @@ world
 	fps = 20
 	icon_size=32
 	// Set the world's name. This will appear in the title bar.
-	name = "Online Test Game"
+	name = "Shinobi RPG"
 	// Configure the default mob object players will log in as.
 	mob = /mob/player
 	hub = "Danny112.AnRPG"

@@ -18,5 +18,19 @@ mob
 		resistance = 5//defence variable
 		power = 10//used for combat damage
 
+	proc
+		expGain(dmg)
+			var/gain
+			//var/mob/player/M = src
+			if(dmg <=0)
+				return
+			else
+				gain = dmg*0.50//for now exp gained = half of damage dealt
+				exp += gain
+				updateExp()
+				statUpdatexp()
+
+
+
 
 

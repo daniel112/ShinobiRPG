@@ -19,6 +19,7 @@ mob
 				return //if you're dead.. u cant punch duh
 			if(src.attacking == 0)
 				var/mob/M
+				//var/mob/player/real
 				src.attacking = 1
 				src.move_disabled = 1
 				flick(pick(attack1,attack2,attack3),src)
@@ -32,6 +33,9 @@ mob
 						var/damage = mFormula(src,M)
 						M.health -= damage
 						M.updateHealth()
+						if(istype(src,/mob/player))//IMPORTANT, NPC cannot gain xp
+							src.expGain(damage)
+						//else continue
 						M.hit_by(src)
 						M<<"You have been hit for [damage] damage!"
 						src<<"You hit [M] for [damage] damage!"

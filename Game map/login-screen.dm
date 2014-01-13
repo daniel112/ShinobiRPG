@@ -14,12 +14,12 @@ mob
 			del src //Because we don't like guests right?
 		*/
 	//	src.frozen=TRUE//Make the variable "frozen" 1
-
+		/*
 		SplashImage = new /obj/SplashScreen/byondSplash(src.client) //create the splash image
 		animate(SplashImage, alpha = 0, time = 90)//fade away
 		sleep(90)
 		del SplashImage//deletes it after it's finish
-
+		*/
 
 		..()
 
